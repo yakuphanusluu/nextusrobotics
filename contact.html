@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NextusRobotics - Contact | Get In Touch</title>
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <div class="logo" style="display: flex; align-items: center;">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="#00ffcc" xmlns="http://www.w3.org/2000/svg"
+                    style="margin-right: 10px;">
+                    <rect x="1" y="9" width="3" height="6" rx="1" />
+                    <rect x="20" y="9" width="3" height="6" rx="1" />
+                    <rect x="7" y="2" width="2" height="4" rx="0.5" />
+                    <rect x="15" y="2" width="2" height="4" rx="0.5" />
+                    <rect x="4" y="5" width="16" height="15" rx="3" />
+                    <rect x="7" y="9" width="3" height="3" rx="0.5" fill="#0a0a0a" />
+                    <rect x="14" y="9" width="3" height="3" rx="0.5" fill="#0a0a0a" />
+                    <rect x="9" y="15" width="6" height="1.5" rx="0.5" fill="#0a0a0a" />
+                </svg>
+                NexusRobotics
+            </div>
+            <ul class="nav-links">
+                <li><a href="landing-page.html">Home</a></li>
+                <li><a href="about-us.html">About Us</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="contact-section">
+        <div class="container-inner">
+            <div class="section-header">
+                <div class="status-badge">
+                    <div class="pulsing-dot"></div>
+                    SYSTEM ONLINE
+                </div>
+                <h1 class="glitch-title">Initiate <span class="neon-text">Contact</span></h1>
+                <p class="description">Have a question about our automation solutions or want to join the team? Reach
+                    out to our neural network.</p>
+            </div>
+
+            <div class="contact-wrapper">
+
+                <!-- Contact Information Card -->
+                <div class="contact-info glass-card">
+                    <h2>Connection Protocols</h2>
+                    <p class="subtitle">> // Our communication nodes are always online.</p>
+
+                    <div class="info-items">
+                        <div class="info-item">
+                            <div class="icon-box">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <div class="details">
+                                <h3>Headquarters</h3>
+                                <p>77 Silicon Avenue, Core District<br>Neo-Tokyo, NT 10045</p>
+                            </div>
+                        </div>
+
+                        <div class="info-item">
+                            <div class="icon-box">
+                                <i class="fa-solid fa-envelope"></i>
+                            </div>
+                            <div class="details">
+                                <h3>Data Stream</h3>
+                                <p>transmissions@robotx.io<br>support@robotx.io</p>
+                            </div>
+                        </div>
+
+                        <div class="info-item">
+                            <div class="icon-box">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                            <div class="details">
+                                <h3>Voice Comm</h3>
+                                <p>+1 (800) 555-CYBR</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="#" class="social-btn"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="#" class="social-btn"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="#" class="social-btn"><i class="fa-brands fa-github"></i></a>
+                        <a href="#" class="social-btn"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+
+                <!-- Contact Form Card -->
+                <div class="contact-form glass-card">
+                    <form id="contactForm">
+                        <h2>Transmit Message</h2>
+
+                        <div class="form-row">
+                            <div class="input-group">
+                                <label for="name">> Operator_Name</label>
+                                <input type="text" id="name" name="name" required placeholder="Enter your name...">
+                            </div>
+                            <div class="input-group">
+                                <label for="email">> Return_Signal [Email]</label>
+                                <input type="email" id="email" name="email" required placeholder="Enter your email...">
+                            </div>
+                        </div>
+
+                        <div class="input-group">
+                            <label for="subject">> Protocol_Subject</label>
+                            <input type="text" id="subject" name="subject" required
+                                placeholder="Enter transmission subject...">
+                        </div>
+
+                        <div class="input-group">
+                            <label for="message">> Data_Payload [Message]</label>
+                            <textarea id="message" name="message" rows="5" required
+                                placeholder="Type your message here..."></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-glow" id="submitBtn">
+                            Initialize Transfer <i class="fa-solid fa-paper-plane"></i>
+                        </button>
+                    </form>
+
+                    <!-- Success Message placeholder -->
+                    <div id="successMessage" class="hidden">
+                        <i class="fa-solid fa-circle-check"></i>
+                        <h3>Transmission Successful</h3>
+                        <p>> Your data payload has been received and logged.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 RobotX Inc. All rights reserved. | <span style="color: #00ffcc;">STATUS: NOMINAL</span></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
